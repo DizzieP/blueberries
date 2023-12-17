@@ -19,9 +19,11 @@
     padding-top: 10rem;
     font-family: 'PT Serif', serif;
     font-size: 2.25rem;
+    color: hsla(0, 0%, 29%, 1);
   }
   
   .hero p {
+    color: hsla(0, 0%, 29%, 1);
     width: 24.125rem;
     line-height: 1.5;
   }
