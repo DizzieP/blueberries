@@ -1,0 +1,40 @@
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">";
+  }
+  
+  ul.breadcrumb li.location+li.attribute::before {
+    content: "";
+  }
+  
+  ul.breadcrumb li a {
+    color: #4f86f7;
+    text-decoration: none;
+  }
+  
+  a#blue {
+    color: #301934;
+  }
+  
+  .attribute a::after {
+    content: " x";
+    vertical-align: super; 
+    font-size: 12px;
+  }
+  
+  ul.breadcrumb li a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+  }
