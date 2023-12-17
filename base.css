@@ -59,6 +59,7 @@
   
   .image-container {
     overflow: hidden;
+    width: 350px;
   }
   
   .image-container img {
