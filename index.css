@@ -14,6 +14,14 @@
     background-image: url('https://content.codecademy.com/courses/ui-breadcrumbs/blueberry-hero.png');
     height: 100%;
 }
+
+.blueberry.hero h2 {
+  color: white;
+}
+
+.blueberry.hero p {
+  color: white;
+}
   
   .hero h2 {
     padding-top: 10rem;
