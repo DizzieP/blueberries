@@ -7,7 +7,7 @@
   
   html {
     font-size: 16px;
-    overflow-x: hidden;
+    overflow-x: scroll;
   }
   
   body {
@@ -58,14 +58,13 @@
   /* Reusable Component - Image Container */
   
   .image-container {
-    overflow: hidden;
-    width: 350px;
+    width: 100%;
   }
   
   .image-container img {
     display: block;
     width: 100%;
-    height: 250px;
+    height: 225px;
   }
   
   /* Reusable Component - Product List */
